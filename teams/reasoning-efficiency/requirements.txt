@@ -1,0 +1,11 @@
+vllm            # Linux + GPU only; skip on a laptop
+transformers
+datasets
+math-verify     # automatic answer checking
+pandas
+numpy
+statsmodels
+matplotlib
+pyyaml
+python-dotenv
+jupyter

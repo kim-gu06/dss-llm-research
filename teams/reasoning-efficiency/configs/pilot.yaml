@@ -1,0 +1,12 @@
+seed: 0
+dataset: HuggingFaceH4/MATH-500
+n_problems: 50              # pilot; full run uses all 500
+attempts: 4
+temperature: 0.6
+max_tokens: 4096
+
+models:
+  base: Qwen/Qwen2.5-Math-7B
+  distill: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+  rl_only: TBD               # pick a SimpleRL-Zoo checkpoint
+  sft_rl: Qwen/Qwen2.5-Math-7B-Instruct

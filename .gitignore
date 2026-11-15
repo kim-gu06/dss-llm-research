@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+hf_token*
+
+# Data and model artifacts (keep local or on Hyak)
+teams/*/data/*
+!teams/*/data/README.md
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.parquet
+*.arrow
+*.h5
+*.npy
+*.npz
+checkpoints/
+wandb/
+mlruns/
+runs/
+outputs/
+
+# Large result dumps (summary CSVs and PNGs are fine)
+teams/*/results/raw/
+*.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

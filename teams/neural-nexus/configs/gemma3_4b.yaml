@@ -1,0 +1,17 @@
+model: google/gemma-3-4b-it
+seed: 0
+
+hneurons:
+  dataset: mandarjoshi/trivia_qa
+  n_questions: 1000          # start small, scale after the pilot
+  samples_per_question: 10   # repeated answers to find consistent correct/incorrect
+  l1_C: 0.1
+
+agent:
+  benchmark: bfcl_v3_multi_turn
+  categories: [base, miss_func, miss_param]
+  max_tasks: 50              # pilot size
+
+suppression:
+  alphas: [1.0, 0.75, 0.5, 0.25, 0.0]
+  neuron_sets: [factual, agent_trained, random]

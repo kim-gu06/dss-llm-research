@@ -1,0 +1,11 @@
+seed: 0
+model: TBD                  # API model or small open model for optimization runs
+
+run_controls:
+  dry_run: true             # a full run requires --full
+  records_per_review: 5
+  max_iterations: 1
+  max_spend_usd: 2.00
+
+split_file: eval/split.json # read-only to the optimizer
+optimize_metric: recall

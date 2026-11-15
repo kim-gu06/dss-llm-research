@@ -1,0 +1,16 @@
+# Install the PyTorch build that matches your CUDA version first if on GPU:
+# https://pytorch.org/get-started/locally/
+torch
+transformers
+accelerate
+datasets
+peft
+nnsight
+scikit-learn
+pandas
+numpy
+matplotlib
+pyyaml
+python-dotenv
+jupyter
+# BFCL evaluation: install from the gorilla repo (see README) once the team confirms the version
