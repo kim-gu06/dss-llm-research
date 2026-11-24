@@ -40,9 +40,10 @@ Hallucinated-call rate, task success rate, clarification/refusal rate, steps and
 
 | Task | Owner | Target |
 | --- | --- | --- |
-| Review H-Neurons code; confirm dataset licenses, model compatibility, GPU access | TBD | Nov 6 |
-| Set up BFCL and run baseline Gemma-3-4B multi-turn evals | TBD | Nov 9 |
-| Reproduce H-Neuron identification on TriviaQA for Gemma-3-4B | TBD | Nov 11 |
+| Get H-neuron pipeline pilot to work | Ishan Sharma | Nov 25 |
+| Get H-Neuron pipline to run fully, identify H-Neurons | TBD | Nov 28 |
+| Run different the model w/ different suppression amounts on multi turn benchmarks | TBD | Dec 2|
+
 
 ## Setup
 
